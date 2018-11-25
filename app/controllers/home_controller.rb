@@ -7,7 +7,7 @@ class HomeController < ApplicationController
  		# search for current subject in database
  		# code.....
  		# generate the link for it 
- 		@qr = RQRCode::QRCode.new( 'http://github.com/', :size => 4, :level => :h )
+ 		@qr = RQRCode::QRCode.new( "http://google.com/", :size => 4, :level => :h )
  	# 	@qrcode = RQRCode::QRCode.new("http://github.com/")
 		# svg = @qrcode.as_svg
 		# # With default options specified explicitly

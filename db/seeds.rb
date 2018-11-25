@@ -28,7 +28,7 @@ user['password'] = '1234'
 
 ActiveRecord::Base.transaction do
   10.times do 
-    user['name'] = Faker::Name.name 
+    user['name'] = Faker::Name.first_sname 
     user['email'] = Faker::Internet.email   
 
 

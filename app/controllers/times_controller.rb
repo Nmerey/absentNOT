@@ -1,4 +1,4 @@
-class TimeController < ApplicationController
+	class TimeController < ApplicationController
 
  	def create
  		@class_time = Time.new
